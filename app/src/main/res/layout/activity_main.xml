@@ -26,15 +26,17 @@
             android:layout_height="@dimen/start_button_size"
             android:layout_marginTop="@dimen/start_button_margin_top"
             android:gravity="center"
+            android:background="@drawable/item_color_accent_border_ripple_background"
             >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=""
+                android:text="@string/str_start"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/start_button_label_textsize"
                 />
         </LinearLayout>
-
     </LinearLayout>
     
 
