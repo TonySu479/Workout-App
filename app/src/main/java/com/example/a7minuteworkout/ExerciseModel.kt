@@ -41,7 +41,7 @@ private var isSelected: Boolean) {
         return isSelected
     }
 
-    fun isSelected(isSelected: Boolean){
+    fun setIsSelected(isSelected: Boolean){
         this.isSelected = isSelected
     }
 }
